@@ -13,7 +13,7 @@ const cardsSlice = createSlice({
                     ...state.cards,
                     [action.payload.id]: action.payload
                 }
-            }   
+            } 
         }
     }
 })
